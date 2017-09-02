@@ -24,7 +24,6 @@ public class NetworkImpl implements Network
     int index = 0;
     private int N;
     private double p;
-    double marketLoss = 0.0;
     private double entropy = 0;
     private List<List<Integer>> inverseAdjacencyMatrix = FastList.newList();
     private List<List<Integer>> prunedAdjacencyMatrix = FastList.newList();
