@@ -1,0 +1,132 @@
+Metadata "Recorded At" "2017-09-02 15:31:52"
+
+Section "testNetwork" "B5"
+"Type","Classification","Tier","Value"
+"Assets","","",""
+"","INTERBANK_ASSET","Tier 2",33333.33333
+"","EXTERNAL_ASSETS","Tier 1",66666.66667
+"Liabilities","","",""
+"","CUSTOMER_DEPOSITS","Tier 1",72777.77778
+"","INTERBANK_BORROWING","Tier 1",22222.22222
+"Capital","","",""
+"","CAPITAL","Tier 1",5000
+"TOTAL ASSETS","","",100000
+"TOTAL LIABILITIES + EQUITY","","",100000
+
+Section "testNetwork" "B4"
+"Type","Classification","Tier","Value"
+"Assets","","",""
+"","INTERBANK_ASSET","Tier 2",33333.33333
+"","EXTERNAL_ASSETS","Tier 1",66666.66667
+"Liabilities","","",""
+"","CUSTOMER_DEPOSITS","Tier 1",72777.77778
+"","INTERBANK_BORROWING","Tier 1",22222.22222
+"Capital","","",""
+"","CAPITAL","Tier 1",5000
+"TOTAL ASSETS","","",100000
+"TOTAL LIABILITIES + EQUITY","","",100000
+
+Section "testNetwork" "B3"
+"Type","Classification","Tier","Value"
+"Assets","","",""
+"","INTERBANK_ASSET","Tier 2",44444.44444
+"","EXTERNAL_ASSETS","Tier 1",55555.55556
+"Liabilities","","",""
+"","CUSTOMER_DEPOSITS","Tier 1",83888.88889
+"","INTERBANK_BORROWING","Tier 1",11111.11111
+"Capital","","",""
+"","CAPITAL","Tier 1",5000
+"TOTAL ASSETS","","",100000
+"TOTAL LIABILITIES + EQUITY","","",100000
+
+Section "testNetwork" "B2"
+"Type","Classification","Tier","Value"
+"Assets","","",""
+"","INTERBANK_ASSET","Tier 2",77777.77778
+"","EXTERNAL_ASSETS","Tier 1",22222.22222
+"Liabilities","","",""
+"","CUSTOMER_DEPOSITS","Tier 1",61666.66667
+"","INTERBANK_BORROWING","Tier 1",33333.33333
+"Capital","","",""
+"","CAPITAL","Tier 1",5000
+"TOTAL ASSETS","","",100000
+"TOTAL LIABILITIES + EQUITY","","",100000
+
+Section "testNetwork" "B9"
+"Type","Classification","Tier","Value"
+"Assets","","",""
+"","INTERBANK_ASSET","Tier 2",33333.33333
+"","EXTERNAL_ASSETS","Tier 1",66666.66667
+"Liabilities","","",""
+"","CUSTOMER_DEPOSITS","Tier 1",72777.77778
+"","INTERBANK_BORROWING","Tier 1",22222.22222
+"Capital","","",""
+"","CAPITAL","Tier 1",5000
+"TOTAL ASSETS","","",100000
+"TOTAL LIABILITIES + EQUITY","","",100000
+
+Section "testNetwork" "B8"
+"Type","Classification","Tier","Value"
+"Assets","","",""
+"","INTERBANK_ASSET","Tier 2",66666.66667
+"","EXTERNAL_ASSETS","Tier 1",33333.33333
+"Liabilities","","",""
+"","CUSTOMER_DEPOSITS","Tier 1",50555.55556
+"","INTERBANK_BORROWING","Tier 1",44444.44444
+"Capital","","",""
+"","CAPITAL","Tier 1",5000
+"TOTAL ASSETS","","",100000
+"TOTAL LIABILITIES + EQUITY","","",100000
+
+Section "testNetwork" "B7"
+"Type","Classification","Tier","Value"
+"Assets","","",""
+"","INTERBANK_ASSET","Tier 2",11111.11111
+"","EXTERNAL_ASSETS","Tier 1",88888.88889
+"Liabilities","","",""
+"","CUSTOMER_DEPOSITS","Tier 1",83888.88889
+"","INTERBANK_BORROWING","Tier 1",11111.11111
+"Capital","","",""
+"","CAPITAL","Tier 1",5000
+"TOTAL ASSETS","","",100000
+"TOTAL LIABILITIES + EQUITY","","",100000
+
+Section "testNetwork" "B6"
+"Type","Classification","Tier","Value"
+"Assets","","",""
+"","INTERBANK_ASSET","Tier 2",77777.77778
+"","EXTERNAL_ASSETS","Tier 1",22222.22222
+"Liabilities","","",""
+"","CUSTOMER_DEPOSITS","Tier 1",72777.77778
+"","INTERBANK_BORROWING","Tier 1",22222.22222
+"Capital","","",""
+"","CAPITAL","Tier 1",5000
+"TOTAL ASSETS","","",100000
+"TOTAL LIABILITIES + EQUITY","","",100000
+
+Section "testNetwork" "B0"
+"Type","Classification","Tier","Value"
+"Assets","","",""
+"","INTERBANK_ASSET","Tier 2",77777.77778
+"","EXTERNAL_ASSETS","Tier 1",22222.22222
+"Liabilities","","",""
+"","CUSTOMER_DEPOSITS","Tier 1",83888.88889
+"","INTERBANK_BORROWING","Tier 1",11111.11111
+"Capital","","",""
+"","CAPITAL","Tier 1",5000
+"TOTAL ASSETS","","",100000
+"TOTAL LIABILITIES + EQUITY","","",100000
+
+Section "testNetwork" "B1"
+"Type","Classification","Tier","Value"
+"Assets","","",""
+"","INTERBANK_ASSET","Tier 2",55555.55556
+"","EXTERNAL_ASSETS","Tier 1",44444.44444
+"Liabilities","","",""
+"","CUSTOMER_DEPOSITS","Tier 1",95000
+"","INTERBANK_BORROWING","Tier 1",0
+"Capital","","",""
+"","CAPITAL","Tier 1",5000
+"TOTAL ASSETS","","",100000
+"TOTAL LIABILITIES + EQUITY","","",100000
+
