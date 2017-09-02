@@ -41,7 +41,7 @@ public class NetworkTest
     public void testCapital()
     {
         Valuable cap = Capital.createCapital(Tier.TIER_1, 234.56, Classification.CAPITAL);
-        //Assert.assertEquals(Tier.TIER_1, cap.getTier());
+        Assert.assertEquals(Tier.TIER_1, cap.getTier());
         Assert.assertEquals(234.56, cap.getValue(),.001);
     }
 

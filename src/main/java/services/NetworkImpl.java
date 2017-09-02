@@ -18,18 +18,17 @@ import java.util.Random;
  */
 public class NetworkImpl implements Network
 {
-
     private final List<Bank> banks = FastList.newList();
     private int links = 0;
     int failures = 0;
     int index = 0;
     private int N;
-    double p;
+    private double p;
     double marketLoss = 0.0;
-    double entropy = 0;
+    private double entropy = 0;
     private List<List<Integer>> inverseAdjacencyMatrix = FastList.newList();
     private List<List<Integer>> prunedAdjacencyMatrix = FastList.newList();
-    boolean generatePlots = false;
+    private boolean generatePlots = false;
     private final boolean isRandom;
 
     public void addBank(Bank bank)
@@ -63,7 +62,7 @@ public class NetworkImpl implements Network
                 temp.add((i != j && rand.nextDouble() > p) ? 1 : 0);
             inverseAdjacencyMatrix.add(temp);
         }
-        int v = 0;
+        int v;
         for (int i = 0; i < N; ++i) {
             temp = FastList.newList();
             for (int j = 0; j < N; ++j) {
@@ -141,7 +140,7 @@ public class NetworkImpl implements Network
     @Override
     public List<List<Integer>> getPrunedAdjacencyMatrix()
     {
-        return null;
+        return this.prunedAdjacencyMatrix;
     }
 
     @Override
