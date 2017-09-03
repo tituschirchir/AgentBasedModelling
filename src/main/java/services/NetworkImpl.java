@@ -85,11 +85,11 @@ public class NetworkImpl implements Network
     public void initiateNetwork(double A, double theta, double gamma)
     {
         double e_bk = links == 0 ? 0 : theta * A / links;
-        String prefix = "B";
+        String prefix = "Bank ";
         for (int i = 0; i < N; ++i) {
             final double interbankAssets = ListIterate.sumOfInt(inverseAdjacencyMatrix.get(i), integer -> integer) * e_bk;
             double excessAssets = A / N - interbankAssets;
-            final double externalAssets = excessAssets >= 0 ? excessAssets : 0;
+            final double externalAssets = excessAssets > 0 ? excessAssets : 0;
             final double capital = (interbankAssets + externalAssets) * gamma;
             final double interbankBorrowing = ListIterate.sumOfInt(prunedAdjacencyMatrix.get(i), integer -> integer) * e_bk;
             double customerDeposits = externalAssets + interbankAssets - capital - interbankBorrowing;

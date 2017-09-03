@@ -2,7 +2,7 @@ package client;
 
 import io.dropwizard.Application;
 import io.dropwizard.setup.Environment;
-import resources.HiResource;
+import resources.BankResource;
 
 /**
  * Created by: tituskc
@@ -16,7 +16,7 @@ public class DropWizardApplication extends Application<DropwizardConfiguration>
     @Override
     public void run(DropwizardConfiguration configuration, Environment environment) throws Exception
     {
-        final HiResource resource = new HiResource(
+        final BankResource resource = new BankResource(
                 "Titus Chirchir"
         );
         environment.jersey().register(resource);

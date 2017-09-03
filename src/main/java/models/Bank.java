@@ -3,19 +3,20 @@ package models;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import org.hibernate.validator.constraints.Length;
 
-public class Saying {
+public class Bank
+{
     private long id;
 
     @Length(max = 3)
-    private String content;
+    private String name;
 
-    public Saying() {
+    public Bank() {
         // Jackson deserialization
     }
 
-    public Saying(long id, String content) {
+    public Bank(long id, String name) {
         this.id = id;
-        this.content = content;
+        this.name = name;
     }
 
     @JsonProperty
@@ -24,7 +25,7 @@ public class Saying {
     }
 
     @JsonProperty
-    public String getContent() {
-        return content;
+    public String getName() {
+        return name;
     }
 }

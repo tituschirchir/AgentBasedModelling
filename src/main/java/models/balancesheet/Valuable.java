@@ -8,7 +8,6 @@ import org.eclipse.collections.api.block.function.Function;
  */
 public interface Valuable
 {
-    Function<String, Tier> TIER_FUNCTION = tier -> Tier.TIER_1.name.equals(tier) ? Tier.TIER_1 : Tier.TIER_2;
     double getValue();
     void setValue(double value);
     Tier getTier();
