@@ -41,7 +41,7 @@ public class BalanceSheetStatement implements AccountStatement
         contents.add(FastList.newListWith("Capital", "","","",""));
         MapIterate.forEachKeyValue(capital, (s, asset) -> contents.add(FastList.<Object>newListWith("",asset.getClassification(), asset.getTier(),asset.getValue())));
         contents.add(FastList.newListWith("TOTAL ASSETS", "","",this.balanceSheet.getTotalAssets()));
-        contents.add(FastList.newListWith("TOTAL LIABILITIES + EQUITY", "","",this.balanceSheet.getTotalCapital() + this.balanceSheet.getTotalLiabilities()));
+        contents.add(FastList.newListWith("TOTAL LIABILITIES", "","", this.balanceSheet.getTotalLiabilities()));
         return this.contents;
     }
 
